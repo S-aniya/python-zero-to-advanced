@@ -20,3 +20,6 @@ data=[
     ["False","False",False and False],
 ]
 print(tabulate(data,headers=["    "," AND","    "],tablefmt="grid"))
+
+print(not(True))
+print(not(False))
